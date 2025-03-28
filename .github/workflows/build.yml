@@ -7,8 +7,8 @@ name: CI
     
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch: 
-  name: Generated APK AAB (Upload - Create Artifact To Github Action)
+workflow_dispatch:  
+      name:Generated APK AAB (Upload - Create Artifact To Github Action)
 
 env:
   # The name of the main module repository
@@ -24,16 +24,17 @@ on:
   pull_request:
     branches: [ "main" ]
 #Where release is writen , must match your branch name , I would suggest cloning your branch  at the end called release so it only builds the final code called release
-  push:
+push:
     branches:
       - 'main'
       
       
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  # Allows you to run this workflow manually from the Actions tab 
+    workflow_dispatch:
 
 jobs:
+
   build:
 
     runs-on: ubuntu-latest
@@ -101,11 +102,10 @@ jobs:
         with:
           name: ${{ env.date_today }} - ${{ env.playstore_name }} - ${{ env.repository_name }} - App bundle(s) AAB release generated
           path: ${{ env.main_project_module }}/build/outputs/bundle/release/
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -123,3 +123,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
