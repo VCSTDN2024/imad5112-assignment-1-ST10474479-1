@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:padding="25dp"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="BEES Meal Planner!!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mealText"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:textSize="20dp"
+        android:ems="10"
+        android:textStyle="italic"
+        android:textColorHint="@color/white"
+        android:hint="Enter the time of day(Morning, Afternoon,etc)"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text=""
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/Mealbtn"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/LightPeach"
+        android:text="Meal Suggestion"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/showFood"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="50dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/resetbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/LightPeach"
+            android:text="Clear"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/exitbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/LightPeach"
+            android:text="Exit"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
