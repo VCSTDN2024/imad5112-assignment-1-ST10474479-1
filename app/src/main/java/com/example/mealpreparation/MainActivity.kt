@@ -1,5 +1,6 @@
 package com.example.mealpreparation
 //Kincade is a g
+//https://youtu.be/_u8zA1CxxV4?si=RNx6SZOGIS9hN3S_
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        //Linked ID widgets to the variables
+        //Linked ID widgets to the variables013
         mealText = findViewById(R.id.mealText)
         mealbtn = findViewById(R.id.Mealbtn)
         resetbtn = findViewById(R.id.resetbtn)

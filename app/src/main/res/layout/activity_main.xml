@@ -40,7 +40,7 @@
 
     <Button
         android:id="@+id/Mealbtn"
-        android:layout_width="328dp"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
         android:backgroundTint="@color/LightPeach"
