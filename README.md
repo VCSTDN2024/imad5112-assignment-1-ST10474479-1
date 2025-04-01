@@ -29,29 +29,29 @@ The app was developed to meet the requirements of the assignment, that includes 
 ## Purpose and Features
 
 ### Purpose:
-The main goal of this app is to [explain the app’s functionality]. 
+The main goal of this app is to to output meals based on the time of day the user inputs.This makes things easier as the user does not have to struggle to think of what to make if they are in a rush somewhere or have a hectic schedule.
 
 ### Key Features:
-- Feature 1: [Description of a feature, e.g., "User login functionality"]
-- Feature 2: [Description of another feature, e.g., "Displaying weather data based on location"]
-- Feature 3: [Optional, another feature, e.g., "Push notifications for reminders"]
-
-These features aim to provide [what the app aims to achieve, e.g., an easy-to-use platform for managing tasks or organizing personal information].
+- Feature 1: EditText where user is able to input the time of day in which they want a meal for then it is displayed.
+- Feature 2: Reset button to clear the meals displayed in the textview so the user can input another time of day.
+- Feature 3: Exit button to exit the program once the user is satisfied and has been given a meal
+  
+These features aim to provide a simple easy user friendly interface and very easy for managing tasks.
 
 
 4. Design Considerations
 
 ## Design Considerations
 
-The design of the **[App Title]** was based on the following key considerations:
+The design of the **Bees Meal Plan** was based on the following key considerations:
 
-1. **User Experience (UX)**: The app was designed with the goal of providing an intuitive and easy-to-navigate user interface, ensuring a seamless user experience.
+1. **User Experience (UX)**: The app was designed with the goal of providing an easy-to-navigate user interface, ensuring an enjoyable user experience.
    
 2. **Responsiveness**: The app was built to ensure it performs well on different screen sizes, with particular attention to device compatibility.
    
-3. **Simplicity**: The design is minimalistic, focusing on core features without overwhelming the user.
+3. **Simplicity**: The design is simple, focusing on core features without overwhelming the user.
    
-4. **Performance**: Code optimization was considered to ensure fast response times and low battery usage.
+4. **Performance**: Code upgrade was considered to ensure fast response times and low battery usage.
 
 5. GitHub and GitHub Actions Utilization
 
@@ -73,14 +73,14 @@ The workflow ensures that my project is automatically built and tested every tim
 ## Screenshots
 
 ### App Screenshots:
-![Screenshot 1](path_to_screenshot_1.png)
-*Caption for screenshot 1: [Describe the context, e.g., "The home screen of the app showing the task list."]*
 
-![Screenshot 2](path_to_screenshot_2.png)
-*Caption for screenshot 2: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+![image](https://github.com/user-attachments/assets/f3ce46f8-ae79-42c4-8843-afd865c8893d)
+
+*Caption for screenshot [Screenshot of user interface]
+
 
 ### Video Demo:
-A video showcasing the app's functionality can be viewed here:
+A video showcasing the app's functionality can be viewed here:https://youtu.be/BfwS162iLBI?feature=shared
 
 7. Challenges and Learnings
 
@@ -88,11 +88,11 @@ A video showcasing the app's functionality can be viewed here:
 
 During the development of this project, I encountered several challenges, including:
 
-1. **Challenge 1**: [Briefly describe a challenge you faced, e.g., "Implementing a complex feature like the login system."]
-   - **Solution**: [How you solved the challenge, e.g., "I researched Firebase authentication and successfully integrated it into the app."]
+1. **Challenge 1**: Had challenges with my background as it was not showing
+   - **Solution**: Had to like my xml file with my mainactivity
    
-2. **Challenge 2**: [Describe another challenge, e.g., "Debugging issues related to Gradle builds."]
-   - **Solution**: [How you solved the challenge.]
+2. **Challenge 2**: Issue with my GitHubAction utilization
+   - **Solution**: Was given a new code as the old one was outdated and the new one worked
 
 From these challenges, I learned important lessons in debugging, using version control, and automating build processes with GitHub Actions.
 
@@ -102,16 +102,18 @@ From these challenges, I learned important lessons in debugging, using version c
 
 While the current version of the app provides the core functionality, there are several features that could be added in the future, including:
 
-1. **Feature 1**: [Description, e.g., "Allowing users to set up reminders or notifications."]
-2. **Feature 2**: [Description, e.g., "Integrating with a cloud database for storing user data."]
-3. **Feature 3**: [Description, e.g., "Adding a dark mode option for better user experience."]
+1. **Feature 1**: Adding more buttons and screens so that the user is able to press on a button and it takes them to another screen to see the options of the food that were shown in the display
+2. **Feature 2**: Adding a sign in page so the users information is saved and is secure and safe to use the app
+3. **Feature 3**: Dark mode for better user experience at night
 
-These enhancements would improve the app’s usability and make it even more versatile for end-users.
+These enhancements would improve the app’s usability and make it even more versatile for every user.
 
 9. References
 
 ## References
-
+Simon,2024.20 Simple Thanksgiving Table Setting for an elegant holiday<https://lovelyharbor.com/simple-thanksgiving-table-settings/> [Accessed 19 March 2025]
+<https://youtu.be/_u8zA1CxxV4?si=pQObZ3iW-SZg5OIs>
+<https://youtu.be/xciVjc1o2rY?si=L2-8zJVjvmJ8cH5I>
 10. List of Figures
 
 ## List of Figures
