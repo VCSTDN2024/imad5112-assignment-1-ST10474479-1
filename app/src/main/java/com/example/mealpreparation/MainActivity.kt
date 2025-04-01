@@ -1,6 +1,5 @@
 package com.example.mealpreparation
 //Kincade is a g
-//https://youtu.be/_u8zA1CxxV4?si=RNx6SZOGIS9hN3S_
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
