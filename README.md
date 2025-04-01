@@ -4,7 +4,7 @@
 
 1. Basic Information
 
-# [App Title]
+# Bees Meal Plan
 - **Developer**: Bianca Thabisile Khumalo
 - **Student Number**:ST10474479
 - **Group**: Group 1
@@ -12,8 +12,8 @@
 - **Subject**:IMAD5112
 
 ## Links
-- **GitHub Repository**: [Repository URL]
-- **YouTube Video**: [YouTube Video Link]
+- **GitHub Repository**:https://github.com/VCSTDN2024/imad5112-assignment-1-ST10474479-1.git
+- **YouTube Video**: https://youtu.be/BfwS162iLBI?feature=shared
 
 2. Project Overview
 
