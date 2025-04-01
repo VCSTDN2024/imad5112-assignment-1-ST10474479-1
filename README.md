@@ -118,5 +118,5 @@ Simon,2024.20 Simple Thanksgiving Table Setting for an elegant holiday<https://l
 
 ## List of Figures
 
-- **Figure 1**: Screenshot of the app's home screen.
-- **Figure 2**: Screenshot of the user profile screen.
+- **Figure 1**: ![image](https://github.com/user-attachments/assets/c04a63f9-5be9-45b5-87fd-5cb4174556dc)
+
