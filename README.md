@@ -88,7 +88,7 @@ The workflow ensures that my project is automatically built and tested every tim
 
 ![image](https://github.com/user-attachments/assets/2c90039e-3cba-474c-9b18-851078f0abb6)
 
-*Caption for screenshot [The handleclick generates]
+*Caption for screenshot [The handleclick generates the output]
 
 
 ### Video Demo:
