@@ -78,6 +78,18 @@ The workflow ensures that my project is automatically built and tested every tim
 
 *Caption for screenshot [Screenshot of user interface]
 
+![image](https://github.com/user-attachments/assets/b33afa2d-57e6-4910-a7f2-9c30d651ffbd)
+
+*Caption for screenshot [Screenshot these line declare variables for the app components]
+
+![image](https://github.com/user-attachments/assets/c1e03d93-7c83-450c-afbc-3ee35364f2eb)
+
+*Caption for screenshot [These lines connect the declared variables to the sepcific Ui components show in the layout using their ID's]
+
+![image](https://github.com/user-attachments/assets/2c90039e-3cba-474c-9b18-851078f0abb6)
+
+*Caption for screenshot [The handleclick generates]
+
 
 ### Video Demo:
 A video showcasing the app's functionality can be viewed here:https://youtu.be/BfwS162iLBI?feature=shared
