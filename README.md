@@ -32,9 +32,9 @@ The app was developed to meet the requirements of the assignment, that includes 
 The main goal of this app is to to output meals based on the time of day the user inputs.This makes things easier as the user does not have to struggle to think of what to make if they are in a rush somewhere or have a hectic schedule.
 
 ### Key Features:
-- Feature 1: EditText where user is able to input the time of day in which they want a meal for then it is displayed.
-- Feature 2: Reset button to clear the meals displayed in the textview so the user can input another time of day.
-- Feature 3: Exit button to exit the program once the user is satisfied and has been given a meal
+- Features: EditText where user is able to input the time of day in which they want a meal for then it is displayed.
+- Features: Reset button to clear the meals displayed in the textview so the user can input another time of day.
+- Features: Exit button to exit the program once the user is satisfied and has been given a meal
   
 These features aim to provide a simple easy user friendly interface and very easy for managing tasks.
 
@@ -45,13 +45,13 @@ These features aim to provide a simple easy user friendly interface and very eas
 
 The design of the **Bees Meal Plan** was based on the following key considerations:
 
-1. **User Experience (UX)**: The app was designed with the goal of providing an easy-to-navigate user interface, ensuring an enjoyable user experience.
+1. **User Experience**: The app was designed with the goal of providing an easy-to-navigate user interface, ensuring an enjoyable user experience.
    
 2. **Responsiveness**: The app was built to ensure it performs well on different screen sizes, with particular attention to device compatibility.
    
-3. **Simplicity**: The design is simple, focusing on core features without overwhelming the user.
+3. **Effectiveness**: The design is simple, focusing on core features without overwhelming the user.
    
-4. **Performance**: Code upgrade was considered to ensure fast response times and low battery usage.
+4. **High Performance**: Code upgrade was considered to ensure fast response times and low battery usage.
 
 5. GitHub and GitHub Actions Utilization
 
@@ -90,6 +90,25 @@ The workflow ensures that my project is automatically built and tested every tim
 
 *Caption for screenshot [The handleclick generates the output]
 
+![image](https://github.com/user-attachments/assets/1d2b474e-2102-433f-a60d-0919ab90acf6)
+
+*Caption for screenshot [This clears the text in the textview are by setting it to an empty string]
+
+![image](https://github.com/user-attachments/assets/7d00f891-a0cf-45e5-bc29-47605931a322)
+
+*Caption for screenshot [This takes the users input from the mealText box, trims the unnecessary space and automatically converts it to a lowercase]
+
+![image](https://github.com/user-attachments/assets/f3de4434-9607-4a83-9024-d4800056e493)
+
+*Caption for screenshot[This here checks if the input is empty. If it is empty the it will display a message asking the user to type something valid]
+
+![image](https://github.com/user-attachments/assets/3cffa98c-1494-4f29-bac7-b0f3137ab866)
+
+*Caption for screenshot [Depending on the users input this then displays the meal suggested]
+
+![image](https://github.com/user-attachments/assets/2cd6aee1-11c1-4784-a357-661dfd7f4d75)
+
+*Caption for screenshot [This here displays and erro message when the user enters a wrong input then a small pop-up message displays for the user to enter the appropriate values]
 
 ### Video Demo:
 A video showcasing the app's functionality can be viewed here:https://youtu.be/BfwS162iLBI?feature=shared
